@@ -1,0 +1,19 @@
+h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+}
+
+button::after {
+    display: none;
+}
+
+.accordion-header {
+    text-align: center;
+}
+
+.accordion-header:hover {
+    text-decoration: underline;
+}
